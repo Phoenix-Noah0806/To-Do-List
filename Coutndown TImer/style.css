@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Assets/background3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 0% ;
+    position: relative;
+
+}
+.logo{
+    width: 170px;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin: 5px 0px 0px 20px;
+
+}
+.content{
+    top: 50%;
+    left: 12%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: white;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    font-size: 64px;
+    font-weight: 600;
+    color: #ef0e2c;
+}
+.content button{
+    background: transparent;
+    border: 2px solid white;
+    margin: 0px;
+    padding: 12px 25px;
+    color: white;
+    display: flex;
+    align-items: center ;
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+}
+.content button img{
+    width: 15px ;
+    padding: 0px;
+    margin-left:10px ;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+}
+.rocket{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 2;
+    }
+}

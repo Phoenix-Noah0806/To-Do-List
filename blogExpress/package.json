@@ -1,0 +1,11 @@
+{
+  "name": "web-dev-projects",
+  "version": "1.0.0",
+  "description": "This is a blog website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayushmaan Jaiswal",
+  "license": "ISC"
+}
